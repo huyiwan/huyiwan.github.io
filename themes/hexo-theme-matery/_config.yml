@@ -553,8 +553,8 @@ subtitle:
   loop: true # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
-  typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  typeSpeed: 310 # 打字速度
+  backSpeed: 250 # 删除速度
   sub:
     - 况是青春日将暮，桃花乱落如红雨。
 
