@@ -13,7 +13,7 @@ summary: manjaro黑屏
 categories: Linux
 tags:
   - linux
-  - manjaro装错驱动开机黑屏
+  - manjaro
 ---
 
 # manjaro装错驱动开机黑屏
