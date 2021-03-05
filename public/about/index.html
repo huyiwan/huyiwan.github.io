@@ -253,9 +253,9 @@
                             
                         ],
                         startDelay: 300,
-                        typeSpeed: 100,
+                        typeSpeed: 310,
                         loop: true,
-                        backSpeed: 50,
+                        backSpeed: 250,
                         showCursor: true
                     });
                 </script>
@@ -285,13 +285,23 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">1</a></span>
+    <span class="count"><a href="/">19</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">5</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">13</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -305,13 +315,23 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">1</a></span>
+    <span class="count"><a href="/">19</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">5</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">13</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
@@ -453,7 +473,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,1],
+                data: [0,0,0,0,0,1,0,0,0,0,0,0,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -495,7 +515,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Linux","value":7},{"name":"Python","value":1},{"name":"docker&k8s","value":4},{"name":"数据库","value":5},{"name":"虚拟机","value":2}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -519,7 +539,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["linux","dokcer","k8s","mysql","centos","manjaro","ubuntu","vmware","vscode","manjaro装错驱动开机黑屏"]
             }
         ],
         yAxis: [
@@ -532,7 +552,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [9,4,4,4,2,2,2,2,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -626,6 +646,84 @@
     <div class="other-skills chip-container" data-aos="zoom-in-up">
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
+            
+            
+            <a href="/tags/linux/">
+                <span class="chip center-align waves-effect waves-light chip-default">linux</span>
+            </a>
+            
+            
+            
+            <a href="/tags/centos/">
+                <span class="chip center-align waves-effect waves-light chip-default">centos</span>
+            </a>
+            
+            
+            
+            <a href="/tags/vscode/">
+                <span class="chip center-align waves-effect waves-light chip-default">vscode</span>
+            </a>
+            
+            
+            
+            <a href="/tags/manjaro%E8%A3%85%E9%94%99%E9%A9%B1%E5%8A%A8%E5%BC%80%E6%9C%BA%E9%BB%91%E5%B1%8F/">
+                <span class="chip center-align waves-effect waves-light chip-default">manjaro装错驱动开机黑屏</span>
+            </a>
+            
+            
+            
+            <a href="/tags/manjaro/">
+                <span class="chip center-align waves-effect waves-light chip-default">manjaro</span>
+            </a>
+            
+            
+            
+            <a href="/tags/vim/">
+                <span class="chip center-align waves-effect waves-light chip-default">vim</span>
+            </a>
+            
+            
+            
+            <a href="/tags/ssh/">
+                <span class="chip center-align waves-effect waves-light chip-default">ssh</span>
+            </a>
+            
+            
+            
+            <a href="/tags/puthon/">
+                <span class="chip center-align waves-effect waves-light chip-default">puthon</span>
+            </a>
+            
+            
+            
+            <a href="/tags/dokcer/">
+                <span class="chip center-align waves-effect waves-light chip-default">dokcer</span>
+            </a>
+            
+            
+            
+            <a href="/tags/k8s/">
+                <span class="chip center-align waves-effect waves-light chip-default">k8s</span>
+            </a>
+            
+            
+            
+            <a href="/tags/mysql/">
+                <span class="chip center-align waves-effect waves-light chip-default">mysql</span>
+            </a>
+            
+            
+            
+            <a href="/tags/ubuntu/">
+                <span class="chip center-align waves-effect waves-light chip-default">ubuntu</span>
+            </a>
+            
+            
+            
+            <a href="/tags/vmware/">
+                <span class="chip center-align waves-effect waves-light chip-default">vmware</span>
+            </a>
+            
             
         </div>
     </div>
@@ -761,7 +859,7 @@
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
@@ -790,6 +888,50 @@
             </span> -->
             
             <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "3";
+                    var startDate = "5";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
             
             <br>
             
